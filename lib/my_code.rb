@@ -1,3 +1,22 @@
+# n this lab, you should write a generalized `map` and `reduce` method. Both of
+# these methods will take a block and require that you pass information between
+# the method and the block. Write your code in the `lib/my_code.rb` file.
+
+# ### `map`
+
+# Your implementation should expect a source array and a block. All the tests
+# will pass an `Array` and a block.
+
+# Remember, `map` returns a new `Array`.
+
+# ### `reduce`
+
+# Your implementation should expect a source array and _optionally_ (recall
+# optional parameters in methods!) a starting value. All the tests will pass an
+# `Array` and sometimes, a starting point.
+
+# Remember, `reduce` returns a value.
+
 def map(source_array)
   new = []
   i = 0
